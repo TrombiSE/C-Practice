@@ -6,5 +6,5 @@ class MainClass {
     for (;i<=10;i++){
       Console.WriteLine(i);
       }
- }
+   }
 }
