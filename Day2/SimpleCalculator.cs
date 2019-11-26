@@ -4,7 +4,11 @@ class MainClass {
   public static void Main (string[] args) {
     do{
       Console.Write("x= ");
-      int x = Convert.ToInt32(Console.ReadLine());
+      string str = Console.ReadLine();
+      if (str == "exit")
+        break;
+      
+      int x = Convert.ToInt32(str);
 
       Console.Write("y= ");
       int y = Convert.ToInt32(Console.ReadLine());
