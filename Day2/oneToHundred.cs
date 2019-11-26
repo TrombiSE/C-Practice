@@ -7,6 +7,5 @@ class MainClass {
       sum=sum + x;
     }
     Console.WriteLine(sum);
-
   }
 }
